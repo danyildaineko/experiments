@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em 0;
+}
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+nav li {
+  margin: 0 1em;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1em;
+}
+.project {
+  background: #fff;
+  padding: 1em;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+footer {
+  text-align: center;
+  padding: 2em 0;
+}
+.dark-theme {
+  background-color: #1a1a1a;
+  color: #eee;
+}
+.dark-theme header {
+  background: #000;
+}
+.dark-theme nav a {
+  color: #eee;
+}
